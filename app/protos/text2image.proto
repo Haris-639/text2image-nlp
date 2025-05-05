@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package text2image;
+
+service Text2ImageService {
+  rpc GenerateImage (ImageRequest) returns (ImageResponse);
+}
+
+message ImageRequest {
+  string text = 1;       // The main input text
+  string context = 2;    // The context of the text (for better prompt crafting)
+}
+
+message ImageResponse {
+  int32 status = 1;      // Status code (200 = OK, 400/500 for errors)
+  string message = 2;    // Success or error message
+  string image_base64 = 3; // Base64-encoded generated image (or empty if error)
+}

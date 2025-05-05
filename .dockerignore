@@ -1,0 +1,45 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Large directories that should be excluded
+# models/
+generated_images/
+datasets/
+# model_cache/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS specific files 
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Archives
+*.tar
+*.gz
+*.zip

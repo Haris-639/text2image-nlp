@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile  # assuming backend Dockerfile is in root
+    container_name: text2image-backend
+    ports:
+      - "50051:50051"  # gRPC port
+    volumes:
+      - ./app:/app
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: text2image-frontend
+    ports:
+      - "8501:8501"  # Streamlit port
+    depends_on:
+      - backend
+    restart: always
