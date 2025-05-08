@@ -14,7 +14,7 @@ This project implements a text-to-image AI agent as a microservice. It uses Stab
 - **JSON responses** with appropriate status codes
 - **Comprehensive test suite**
 - **Containerized deployment** with Docker
-- **Gradio frontend** for easy demonstration
+- **Streamlit+HTML+CSS frontend** for easy demonstration
 
 ## Technical Requirements
 
