@@ -146,7 +146,7 @@ python client.py generate "a cyberpunk city at night" --width 640 --height 384 -
 
 ## Frontend
 
-A simple Gradio frontend is available at `http://localhost:7860` when the services are running. It provides a user-friendly interface for interacting with the text-to-image service.
+The frontend is available at `http://localhost:8501/` when the services are running. It provides a user-friendly interface for interacting with the text-to-image service.
 
 ## Performance Considerations
 
