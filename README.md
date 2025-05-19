@@ -154,7 +154,3 @@ The frontend is available at `http://localhost:8501/` when the services are runn
 - Image generation is computationally intensive and requires a GPU for reasonable performance
 - The model is loaded into memory once and reused for all requests
 - Large images or high step counts will increase generation time
-
-## License
-
-[Specify the license here]
