@@ -154,7 +154,3 @@ A simple Gradio frontend is available at `http://localhost:7860` when the servic
 - Image generation is computationally intensive and requires a GPU for reasonable performance
 - The model is loaded into memory once and reused for all requests
 - Large images or high step counts will increase generation time
-
-## License
-
-[Specify the license here]
