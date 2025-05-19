@@ -14,7 +14,7 @@ This project implements a text-to-image AI agent as a microservice. It uses Stab
 - **JSON responses** with appropriate status codes
 - **Comprehensive test suite**
 - **Containerized deployment** with Docker
-- **Gradio frontend** for easy demonstration
+- **Streamlit+HTML+CSS frontend** for easy demonstration
 
 ## Technical Requirements
 
@@ -146,7 +146,7 @@ python client.py generate "a cyberpunk city at night" --width 640 --height 384 -
 
 ## Frontend
 
-A simple Gradio frontend is available at `http://localhost:7860` when the services are running. It provides a user-friendly interface for interacting with the text-to-image service.
+The frontend is available at `http://localhost:8501/` when the services are running. It provides a user-friendly interface for interacting with the text-to-image service.
 
 ## Performance Considerations
 
